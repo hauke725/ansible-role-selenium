@@ -22,7 +22,7 @@ SELENIUM_DIR={{ selenium_install_dir }}/selenium
 SELENIUM_JAR_FILE="$SELENIUM_DIR/selenium-server-standalone-{{ selenium_version }}.jar"
 DAEMON_PID_FILE="$SELENIUM_DIR/selenium.pid"
 SELENIUM_LOG_FILE="$SELENIUM_DIR/selenium.log"
-SELENIUM_DAEMON_OPTS=" -client -jar $SELENIUM_JAR_FILE -log $SELENIUM_LOG_FILE -port {{ selenium_port }}"
+SELENIUM_DAEMON_OPTS=" -client -jar $SELENIUM_JAR_FILE standalone -log $SELENIUM_LOG_FILE -port {{ selenium_port }}"
 
 export DISPLAY="$DISPLAY_ID"
 
