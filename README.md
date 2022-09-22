@@ -1,6 +1,6 @@
 ## selenium [![Build Status](https://travis-ci.org/arknoll/ansible-role-selenium.svg?branch=master)](https://travis-ci.org/arknoll/ansible-role-selenium)
 
-Set up selenium and Firefox for running selenium tests.
+Set up selenium 4 and Firefox for running selenium tests.
 
 #### Requirements
 
@@ -9,7 +9,7 @@ Set up selenium and Firefox for running selenium tests.
 #### Variables
 
 * `selenium_install_dir`: [default: `/opt`] Install directory
-* `selenium_version`: [default: `2.53.0`] Install version
+* `selenium_version`: [default: `4.4.0`] Install version
 * `selenium_install_firefox`: [default: `no`] Whether to install FireFox
 * `selenium_install_chrome`: [default: `yes`] Whether to install Google Chrome
 
